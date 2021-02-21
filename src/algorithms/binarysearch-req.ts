@@ -16,7 +16,7 @@ export function binarySearch(
     return -1
   }
 
-  const mid = left + ((right - left) >> 1)
+  const mid = (left + right) >> 1
 
   return found(mid, sortedArray)
     ? mid

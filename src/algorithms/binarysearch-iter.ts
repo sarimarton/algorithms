@@ -9,12 +9,12 @@ export function binarySearch(
   let right = sortedArray.length - 1
 
   const found: ArrayItemPredicate =
-    typeof elementOrPredicate === 'function'
+    typeof elementOrPredicate === "function"
       ? elementOrPredicate
       : (idx, arr) => arr[idx] === elementOrPredicate
 
   while (left <= right) {
-    const mid = left + ((right - left) >> 1)
+    const mid = (left + right) >> 1
 
     if (found(mid, sortedArray)) {
       return mid
