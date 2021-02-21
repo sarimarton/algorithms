@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  },
+  "keywords": [],
+  "prettier": {
+    "semi": false
+  }
+}
