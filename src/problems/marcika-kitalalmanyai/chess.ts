@@ -41,11 +41,11 @@ export function getAllMovesKnight(square: string) {
 }
 
 
-import { Vertex } from '../../algorithms/types'
+import { Vertex } from 'src/algorithms/types'
 
-import * as bfs from '../../algorithms/bfs'
-import * as dfsr from '../../algorithms/dfs-req'
-import * as dfsi from '../../algorithms/dfs-iter'
+import * as bfs from 'src/algorithms/bfs'
+import * as dfsr from 'src/algorithms/dfs-req'
+import * as dfsi from 'src/algorithms/dfs-iter'
 
 let algorithms = { ...bfs, ...dfsr, ...dfsi }
 
